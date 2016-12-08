@@ -8,15 +8,18 @@
 
 #import "MCTabbarControl.h"
 
+static MCTabbarControl *_MCTabbarControl;
 @interface MCTabbarControl ()
-
+@property(nonatomic,strong)MCTabbarControl *MCTabbarControl;
 @end
 
 @implementation MCTabbarControl
 
+
+#pragma mark - viewDidLoad
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+ 
 }
 
 

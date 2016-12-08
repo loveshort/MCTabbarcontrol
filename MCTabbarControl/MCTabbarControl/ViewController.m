@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MCTabbarControl.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MCTabbarControl *tabbar = [[MCTabbarControl alloc] init];
     
+    NSLog(@"%@",tabbar);
+    NSLog(@"%@",tabbar);
 }
 
 @end

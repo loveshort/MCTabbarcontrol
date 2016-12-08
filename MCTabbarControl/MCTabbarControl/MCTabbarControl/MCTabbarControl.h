@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MCTabbarControl : UITabBarController
-
+@property(nonatomic,strong)NSArray *viewController;
 @end
